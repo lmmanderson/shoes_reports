@@ -25,3 +25,6 @@ proc report data=work.country_summary;
         rbreak after / summarize;
         title 'Shoes Sales by Country';
 run;
+
+proc options;
+run;
